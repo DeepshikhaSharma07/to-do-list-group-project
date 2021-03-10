@@ -1,0 +1,65 @@
+body {
+  background: url('To_Do_List.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Akaya Telivigala', cursive;
+  font-weight: 800;
+  font-size: x-large;
+  padding: 30px 40px;
+}
+
+
+.header {
+  font-size: 100px;
+  position:fixed;
+  top: 15%;
+  color: white;
+
+}
+
+.listeditems {
+  transform: rotate(20deg);
+  top: 27%;
+  left: 50%;
+  position: absolute;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+ 
+@media (max-width: 100%) {
+  .header{
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    position: relative;
+  }
+   input[type="text"]{
+    width: 80%;
+    position: relative;
+  } 
+ .listeditems{
+    width: 10%;
+    position: relative;
+  }
+  #myInput, #add{
+
+    font-size: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    transform:rotate(45deg);
+  } 
+
+
+.navbar-brand {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(189, 181, 181);
+  color: white;
+  text-align: center;
+}
+}
